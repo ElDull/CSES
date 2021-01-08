@@ -1,0 +1,10 @@
+1. figured out how to read the input in c++
+   (for loop with cin equal to the amount of inputs)
+2. learned about sets in c++
+   sets are an like an ordered array
+   sets also have a set.find() method which when given a number
+   returns a pointer to that number in the set
+   if it doesnt find a number it returns a pointer to the end of the set
+   this method combined with set.end() lets you find the missing number by writing
+   if (set.find(i) == set.end()). this means i == missing number.
+   
